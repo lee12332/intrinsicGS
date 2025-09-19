@@ -40,14 +40,15 @@ pip install ./bvh
 
 # install relightable 3D Gaussian
 pip install ./r3dg-rasterization
+```
 
 
 ### Data preparation
 #### Data Structure
 We organize the datasets like this:
 ```
-Relightable3DGaussian
-├── datasets
+intrinsicGS
+── datasets
     ── intrinsic
        ── replica
             ── office_0
@@ -63,9 +64,9 @@ Relightable3DGaussian
                         ── depth_1999.png
                     ── sparse
                         ── 0
-                            ── cameras.bin
-                            ── images.bin
-                            ── points3D.bin
+                            ── cameras
+                            ── images
+                            ── points3D
     
 ```
 
