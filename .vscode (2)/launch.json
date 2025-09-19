@@ -1,0 +1,36 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python 调试程序: 包含参数的当前文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/train.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-s","datasets/intrinsic/replica/office_0/train",
+                "-m","output/replica/office_0",
+                "-t","intrinsic",
+                "--iterations","30000",
+                "--compute_intrinsic_composition",
+                "--densification_interval","100",
+                "--densify_until_iter","15000",
+                "--lambda_depth","0",
+                "--lambda_mask_entropy","0",
+                "--lambda_vanilla","0",
+                "--lambda_intrinsic","1",
+                "--lambda_reflectance_sparsity","0.2",
+                "--lambda_shading_smooth","1",
+                "--use_residual",
+                "--lambda_residual","1",
+                "--lambda_prior_chromaticity","1",
+                "--lambda_offset","1",
+                "--save_training_vis",
+                "--save_training_vis_iteration","1000",  
+            ]
+        }
+    ]
+}

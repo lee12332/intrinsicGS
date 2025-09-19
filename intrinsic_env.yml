@@ -1,0 +1,14 @@
+name: intrinsic
+dependencies:
+  - matplotlib
+  - numpy
+  - python=3.8
+  - tensorboard
+  - tqdm
+  - pip
+  - pip:
+      - imageio
+      - opencv-python
+      - pillow
+      - plyfile
+      - scipy

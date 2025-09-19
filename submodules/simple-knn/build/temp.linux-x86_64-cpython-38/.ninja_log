@@ -1,0 +1,4 @@
+# ninja log v5
+1	6470	1735181493551474618	/home/leehong/intrinsic-origin/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	d2840906cdfb82c1
+1	14074	1735181501150386021	/home/leehong/intrinsic-origin/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	e1c0757d90f0da35
+1	30925	1735181518004189027	/home/leehong/intrinsic-origin/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	797c9e7e5bc9a67c

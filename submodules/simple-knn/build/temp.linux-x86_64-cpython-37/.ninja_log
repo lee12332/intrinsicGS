@@ -1,0 +1,4 @@
+# ninja log v5
+0	5152	1711352339	/mnt/Data_1/lhy/code/intrinsic-gs/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/simple_knn.o	c41880a1212482c
+0	10262	1711352344	/mnt/Data_1/lhy/code/intrinsic-gs/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/ext.o	98fd63a7f1f27992
+0	22625	1711352356	/mnt/Data_1/lhy/code/intrinsic-gs/submodules/simple-knn/build/temp.linux-x86_64-cpython-37/spatial.o	63fa08663711eb14
